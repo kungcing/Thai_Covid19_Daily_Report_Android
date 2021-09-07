@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="SETTINGS YOUR USER INTERFACE"
+        android:summary="ABOUT FONT AND THEME">
+<SwitchPreferenceCompat app:key="theme"
+    android:title="THEME"
+    android:defaultValue="false"
+    android:summary="LIGHT MODE"
+    android:icon="@drawable/ic_baseline_color_lens_24"/>
+        <SwitchPreferenceCompat app:key="font"
+            android:title="FONT"
+            android:defaultValue="false"
+            android:summary="Tahoma"
+            android:icon="@drawable/ic_baseline_font_download_24"/>
+        <SwitchPreferenceCompat app:key="style"
+            android:title="STYLE"
+            android:defaultValue="false"
+            android:summary="STANDARD"
+            android:icon="@drawable/ic_baseline_style_24"/>
+    </PreferenceCategory>
+</PreferenceScreen>
